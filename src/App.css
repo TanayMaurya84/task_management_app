@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    padding: 2rem;
+    margin: 0;
+  }
+
+
+  .container {
+    max-width: auto;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .heading{
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px
+  }
+.headingName{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  
+  
+}
+
+  input, select {
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-size:15px;
+  }
+
+  button:hover {
+    background: #ebe5e5;
+    color: black;
+  
+    transition: background 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    background: #f9f9f9;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+  .task-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  
+  }
+
+  .task-info span {
+    flex-grow: 1;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  .task-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.6rem;
+    background-color: #fdfdfd;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+
+  .task-col {
+    flex: 1;
+  }
+
+  .task-row input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+
